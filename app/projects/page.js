@@ -1,4 +1,3 @@
-"use client"
 import Layout from '@/components/Layout'
 import Link from 'next/link'
 import ArrowLeft from '@/components/icons/ArrowLeft'

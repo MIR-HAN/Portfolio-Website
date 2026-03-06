@@ -52,7 +52,7 @@ const MotionComponent = () => {
             />
 
             <motion.img
-                className="h-auto w-8 sm:w-12 md:w-[75px] lg:w-[80px] z-[1]"
+                className="h-auto w-10 sm:w-12 md:w-[75px] lg:w-[80px] z-[1]"
                 src="/images/js.svg"
                 alt="js"
                 initial={{
@@ -60,7 +60,7 @@ const MotionComponent = () => {
                     scale: 0.7,
                 }}
                 animate={{
-                    translateY: 0,
+                    translateY: 0, 
                     scale: 1
                 }}
                 transition={{

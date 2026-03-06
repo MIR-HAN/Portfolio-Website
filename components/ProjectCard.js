@@ -6,7 +6,6 @@ const ProjectCard = ({
     project: { title, description, image, source, tags },
 }) => {
 
-    console.log(title,description,image,tags)
     return (
         <motion.a
             href={source}
